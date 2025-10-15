@@ -32,3 +32,9 @@ This helps with math tasks since LLMs often make probabilistic errors.
 I added more tools for subtraction, multiplication, and division at the end of this file.
 When I tried dividing 5 by 0, the tool didn’t trigger.
 It only called the tools for valid, non-zero divisions.
+
+# Video 5: Router
+
+We routed requests to the tools node when the LLM called a tool based on user input.
+I added a node after the tools section that prints the tool output.
+In real projects, this step could help process results further before returning them.
