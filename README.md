@@ -24,3 +24,11 @@ It performs one of three actions: runs a web search, opens a calculator, or send
 We used the existing course files to check if the LangSmith Studio works.
 There wasn’t much work do...
 I added the example I made earlier to this.
+
+# Lesson 4: Chains
+
+We built tools that use predefined functions to produce accurate results.
+This helps with math tasks since LLMs often make probabilistic errors.
+I added more tools for subtraction, multiplication, and division at the end of this file.
+When I tried dividing 5 by 0, the tool didn’t trigger.
+It only called the tools for valid, non-zero divisions.
