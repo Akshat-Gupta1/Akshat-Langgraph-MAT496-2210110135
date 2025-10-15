@@ -38,3 +38,11 @@ It only called the tools for valid, non-zero divisions.
 We routed requests to the tools node when the LLM called a tool based on user input.
 I added a node after the tools section that prints the tool output.
 In real projects, this step could help process results further before returning them.
+
+# Video 6: Agent
+
+We built a recursive loop to allow sequential tool calls.
+This lets a tool’s output feed back into another call.
+I added a tool to sort a list of numbers.
+I wanted the LLM to then subtract the list recursively, but it didn’t work.
+A better prompt or another helper tool might fix this.
