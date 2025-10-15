@@ -18,3 +18,9 @@ We used conditional edges to choose the next node based on user input.
 Here, we used a randomizer function to make the choice.
 At the end of the file, I added a small example.
 It performs one of three actions: runs a web search, opens a calculator, or sends input to a general LLM query.
+
+# Lesson 3: Langsmith Studio
+
+We used the existing course files to check if the LangSmith Studio works.
+There wasn’t much work do...
+I added the example I made earlier to this.
