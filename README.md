@@ -46,3 +46,8 @@ This lets a tool’s output feed back into another call.
 I added a tool to sort a list of numbers.
 I wanted the LLM to then subtract the list recursively, but it didn’t work.
 A better prompt or another helper tool might fix this.
+
+# Video 7: Agent with Memory
+
+We learned how to persist memory for multi-step prompts.
+I made a small change that multiplies the final result by 10.
