@@ -6,4 +6,15 @@ Using langraph to develop these custom agents..
 
 # Lesson 1: Motivation
 
-Learned why LangGraph is valuable for building complex LLM applications. Instead of working with simple, linear chains, LangGraph enables the creation of dynamic, graph-based workflows with loops, branching, and shared state. Easier to design systems that can make decisions, use tools, and adapt during execution. This improves debugging and scalability by improving visibility into the workflow.
+We learned why LangGraph is useful for building complex LLM applications.
+Instead of using simple linear chains, we build dynamic graph-based workflows with loops, branches, and shared state.
+This makes it easier to design systems that make decisions, use tools, and adapt while running.
+It also helps me debug and scale by giving clear visibility into the workflow.
+
+# Lesson 2: Simple Graph
+
+We showed how to add nodes and edges to a graph.
+We used conditional edges to choose the next node based on user input.
+Here, we used a randomizer function to make the choice.
+At the end of the file, I added a small example.
+It performs one of three actions: runs a web search, opens a calculator, or sends input to a general LLM query.
